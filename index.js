@@ -3,5 +3,9 @@ const name2 ='Piyush Garg'
 const salary = 50000
 
 function isAbove18(age) {
-  return age >= 18;
+  if(age >= 18){
+    return 'Yes, you are above 18';
+  } else {
+    return 'No, you are not above 18';
+  };
 }
