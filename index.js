@@ -9,3 +9,7 @@ function isAbove18(age) {
     return 'No, you are not above 18';
   };
 }
+
+function dice() {
+  return Math.floor(Math.random() * 6) + 1;
+}
