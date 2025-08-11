@@ -13,3 +13,11 @@ function isAbove18(age) {
 function dice() {
   return Math.floor(Math.random() * 6) + 1;
 }
+
+function isMarried(name) {
+  if(name === 'Piyush Garg') {
+    return 'Yes, I am married';
+  } else {
+    return 'No, I am not married';
+  }
+}
